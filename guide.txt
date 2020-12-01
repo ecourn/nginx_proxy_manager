@@ -1,0 +1,3 @@
+https://nginxproxymanager.com/
+
+docker-compose -f "/root/nginx_proxy_manager.yml" -p nginx up -d
