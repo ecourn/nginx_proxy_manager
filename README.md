@@ -12,3 +12,7 @@ wget https://raw.githubusercontent.com/Tontonjo/ngxin_proxy_manager/main/nginx_p
 docker-compose -f "/root/nginx_proxy_manager.yml" -p nginx up -d
 
 Navigate to http://hostname_ip:81
+
+Default login: 
+Email:    admin@example.com
+Password: changeme
