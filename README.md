@@ -20,6 +20,6 @@ docker-compose -f "/root/nginx_proxy_manager.yml" -p nginx up -d
 Once started:  
 Navigate to http://hostname_ip:81
 
-Default login: 
-Email:    admin@example.com
-Password: changeme
+Default login:  
+Email:    admin@example.com  
+Password: changeme  
