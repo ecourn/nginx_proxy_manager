@@ -8,18 +8,10 @@ https://nginxproxymanager.com/
 
 # Usage:
 
-run without database directly using:
+run without database directly using this command:  
+https://github.com/Tontonjo/ngxin_proxy_manager/blob/main/docker_command.sh
 
-docker run -d \
---name=npm \
---restart=unless-stopped \
--p 83:81 \
--p 23452:443 \
--p 41658:80 \
--v /sharedfolders/dockerdata/npm/data:/data \
--v /sharedfolders/dockerdata/npm/letsencrypt:/etc/letsencrypt \
-jc21/nginx-proxy-manager:latest
-
+Or  
 WITH database:  
 wget https://raw.githubusercontent.com/Tontonjo/ngxin_proxy_manager/main/nginx_proxy_manager.yml
 
