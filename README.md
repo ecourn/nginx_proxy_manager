@@ -20,7 +20,7 @@ docker run -d \
 -v /sharedfolders/dockerdata/npm/letsencrypt:/etc/letsencrypt \
 jc21/nginx-proxy-manager:latest
 
-WITH database:
+WITH database:  
 wget https://raw.githubusercontent.com/Tontonjo/ngxin_proxy_manager/main/nginx_proxy_manager.yml
 
 docker-compose -f "/root/nginx_proxy_manager.yml" -p nginx up -d
