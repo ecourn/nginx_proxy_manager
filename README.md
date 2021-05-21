@@ -8,8 +8,8 @@ https://nginxproxymanager.com/
 
 # Usage:
 
-Run without database directly using this command:  
-https://github.com/Tontonjo/ngxin_proxy_manager/blob/main/docker_command.sh
+Run with sqliteDB directly using the command you can find here:  
+https://github.com/Tontonjo/ngxin_proxy_manager/blob/main/docker_command.txt
 
 Or  
 WITH database:  
