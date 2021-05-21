@@ -8,7 +8,7 @@ https://nginxproxymanager.com/
 
 # Usage:
 
-run without database directly using this command:  
+Run without database directly using this command:  
 https://github.com/Tontonjo/ngxin_proxy_manager/blob/main/docker_command.sh
 
 Or  
