@@ -15,7 +15,7 @@ Or
 WITH database:  
 wget https://raw.githubusercontent.com/Tontonjo/ngxin_proxy_manager/main/nginx_proxy_manager.yml
 
-docker-compose -f "/root/nginx_proxy_manager.yml" -p nginx up -d
+docker-compose -f "/root/nginx_proxy_manager.yml" -p npm up -d
 
 Once started:  
 Navigate to http://hostname_ip:81
