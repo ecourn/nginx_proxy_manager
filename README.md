@@ -8,9 +8,19 @@ https://nginxproxymanager.com/
 
 # Usage:
 
-Run with sqliteDB directly using the command you can find here:  
-https://github.com/Tontonjo/ngxin_proxy_manager/blob/main/docker_command.txt
-
+Run with sqliteDB directly using this command:
+```shell
+docker run -d \
+--name=npm \
+--restart=unless-stopped \
+-p 81:81 \
+-p 443:443 \
+-p 80:80 \
+-v /path/to/npm/data:/data \
+-v /path/to/npm/letsencrypt:/etc/letsencrypt \
+-e DB_SQLITE_FILE=/data/database.sqlite \
+jc21/nginx-proxy-manager:latest
+```  
 Or  
 WITH database:  
 wget https://raw.githubusercontent.com/Tontonjo/ngxin_proxy_manager/main/nginx_proxy_manager.yml
