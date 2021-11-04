@@ -26,8 +26,7 @@ docker run -d \
 -e DB_SQLITE_FILE=/data/database.sqlite \
 jc21/nginx-proxy-manager:latest
 ```  
-Or  
-WITH database:  
+### Or WITH database:  
 ```shell
 wget https://raw.githubusercontent.com/Tontonjo/ngxin_proxy_manager/main/nginx_proxy_manager.yml
 ```  
