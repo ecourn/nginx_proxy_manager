@@ -29,6 +29,10 @@ jc21/nginx-proxy-manager:latest
 ```shell
 wget https://raw.githubusercontent.com/Tontonjo/ngxin_proxy_manager/main/nginx_proxy_manager.yml
 ```  
+edit the yaml to match your environement
+```shell
+nano nginx_proxy_manager.yml
+```  
 ```shell
 docker-compose -f "/root/nginx_proxy_manager.yml" -p npm up -d
 ```  
